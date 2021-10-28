@@ -20,5 +20,24 @@ Added index on the animal_id column in the visits table.
 ![Screen Shot 2021-10-28 at 10 10 27](https://user-images.githubusercontent.com/10905837/139215485-13afb267-48de-4de6-a19c-cf5065e4e9a2.png)
 
 
+## Second query
+
+```SELECT * FROM visits where vet_id = 2;```
+
+### Solution:
+
+Added index on both the animal_id and vet_id columns in the visits table.
+
+```CREATE INDEX vet_animal ON visits (vet_id, animal_id);```
+
+### Before:
+
+
+
+
+### After:
+
+
+
 
 
