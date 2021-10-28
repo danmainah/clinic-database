@@ -45,16 +45,18 @@ Added index on both the animal_id and vet_id columns in the visits table.
 
 ### Solution:
 
-Added index on both the animal_id and vet_id columns in the visits table.
+Added index on email column in the owners table.
 
 ```CREATE INDEX email_id ON owners (email);```
 
 ### Before:
 
-![Screen Shot 2021-10-28 at 10 21 31](https://user-images.githubusercontent.com/10905837/139218225-9f3aba11-8a40-4519-8ccd-7c5ea64189af.png)
+![Screenshot (37)](https://user-images.githubusercontent.com/61408860/139221692-d3b3a1a1-dcd5-4e27-aca0-f084bd1aa0d1.png)
+
 
 ### After:
+![Screenshot (39)](https://user-images.githubusercontent.com/61408860/139221817-ba930acc-4bad-4c38-a9cf-8ebd79307a74.png)
 
-![Screen Shot 2021-10-28 at 10 28 30](https://user-images.githubusercontent.com/10905837/139218257-ee95007b-ba21-4097-bfd5-e4194fb2c9ef.png)
+
 
 
