@@ -32,11 +32,11 @@ Added index on both the animal_id and vet_id columns in the visits table.
 
 ### Before:
 
-
-
+![Screen Shot 2021-10-28 at 10 21 31](https://user-images.githubusercontent.com/10905837/139218225-9f3aba11-8a40-4519-8ccd-7c5ea64189af.png)
 
 ### After:
 
+![Screen Shot 2021-10-28 at 10 28 30](https://user-images.githubusercontent.com/10905837/139218257-ee95007b-ba21-4097-bfd5-e4194fb2c9ef.png)
 
 
 
